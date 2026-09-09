@@ -1,4 +1,4 @@
-# RT-BBN-001 — Lithium-7 Surrogate Retest
+# RT-BBN-001 â€” Lithium-7 Surrogate Retest
 
 **Scientific status:** theoretical candidate; historical toy calculation; not cosmology validation.
 
@@ -19,6 +19,10 @@ The original integral did not independently reproduce (\Xi_\gamma=1.23). A corre
 7. Reject the candidate if improvement in lithium damages other abundances beyond preregistered tolerances.
 8. Preserve numerical failures, nulls, sensitivity results, and competing explanations.
 
-## Current blockers
+## Current successor state
 
-Original executable and raw output are not yet in this repository. Full AlterBBN integration, Standard-Model reduction, tensor/operator derivation, and a first-principles (\Xi_\gamma) derivation are absent.
+Stock AlterBBN v2.2 has now been recovered, compiled, and executed on the current host. A source-isolated mass-7 rate sensitivity screen and preregistered R17/R27/R34 triad were also executed; see [AlterBBN Successor Execution 2026-09-08](BBN_ALTERBBN_EXECUTION_2026-09-08.md).
+
+The modest local rate-adjustment mechanism is weakened: the strongest preregistered triad reduced Li7/H by about 29.7%, far short of the historical 70.8% suppression target, and showed mild sub-additivity rather than relational amplification.
+
+Remaining blockers are a first-principles DT operator or independently justified reaction-rate modification, observational-data reconciliation, full uncertainty/likelihood analysis, and recovery of the separate official dataset whose citation/notification terms remain unresolved.
