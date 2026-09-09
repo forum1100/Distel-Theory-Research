@@ -20,4 +20,10 @@ Applications operationalize DT methods without inheriting scientific certainty f
 - execution-budget and context telemetry inspection;
 - local/self-hosted and consumer-selected AI infrastructure proposals.
 
+## Detailed public specifications
+
+- [Prism Defensive Simulation](PRISM_DEFENSE.md)
+- [Propulsion Conservation Laboratory](PROPULSION_CONSERVATION.md)
+- [Civilization Systems Laboratory](CIVILIZATION_SYSTEMS.md)
+
 See [DT Works](https://dt-operations-suite.thomasdistel.chatgpt.site) for the interactive capability deck. Maturity varies by tool and is disclosed individually.
