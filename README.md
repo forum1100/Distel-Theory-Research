@@ -1,4 +1,4 @@
-# Distel Theory Research
+﻿# Distel Theory Research
 
 **Distel Theory (DT = DRO + DUCT)**  
 **Primary author:** Thomas J. Cutler / Thomas Distel  
@@ -30,5 +30,7 @@ This repository publishes DT's theories, equations, visual models, simulations, 
 - [Public/proprietary boundary](PUBLIC_PROPRIETARY_BOUNDARY.md)
 - [Visual index](visuals/README.md)
 - [Philosophy-to-test visual](visuals/FROM_PHILOSOPHY_TO_TEST.md)
+
+Public research site: [Distel Theory Research](https://forum1100.github.io/Distel-Theory-Research/).
 
 Interactive companion: [DT Works](https://dt-operations-suite.thomasdistel.chatgpt.site).
