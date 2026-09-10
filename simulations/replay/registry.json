@@ -92,6 +92,22 @@
       "source_class": "HISTORICAL_CLAIM",
       "entrypoint": null,
       "source_locators": []
+    },
+    {
+      "simulation_id": "dt_blackhole_recursive_learning_2026_05_recovered",
+      "family": "blackhole_recursive_learning",
+      "status": "VERBATIM_EXECUTION_CELLS_RECOVERED_PORTABLE_REPLAY_TESTED",
+      "source_class": "VERBATIM_EXECUTION_CELLS_RECOVERED_FROM_CHATGPT_EXPORT",
+      "entrypoint": "packs/dt_blackhole_recursive_learning_2026_05_recovered/replay_run.py",
+      "requirements": "packs/dt_blackhole_recursive_learning_2026_05_recovered/requirements.txt",
+      "default_args": [
+        "--run",
+        "1"
+      ],
+      "source_locators": [
+        "historical_chatgpt_export:2026-05:blackhole_recursive_learning_execution_chain"
+      ],
+      "preserves_historical_failures": true
     }
   ]
 }
