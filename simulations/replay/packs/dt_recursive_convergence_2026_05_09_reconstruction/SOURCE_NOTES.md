@@ -15,7 +15,7 @@ Historical outputs are not treated as reproduced until an exact historical execu
 
 ## Black-hole recovery status
 
-The current source establishes a historical black-hole **domain branch** inside the recursive-convergence pack. Separate Hawking/accessibility escaped-flux and threshold experiments remain listed in the replay registry as `NEEDS_EXACT_SOURCE_RECOVERY` until their code is located.
+The current source establishes a historical black-hole **domain branch** inside the recursive-convergence pack. The separate Hawking/accessibility escaped-flux and threshold execution chain has since been recovered from the May 2026 ChatGPT export as exact executed code and independently replay-validated in `../dt_hawking_accessibility_2026_05_07_recovered/`. This later recovery does not turn the recursive-convergence black-hole domain into a spacetime/Hawking simulator; the two lineages remain distinct.
 
 ## Provenance rule
 

@@ -5,7 +5,10 @@
     "preserve_failed_branches": true,
     "reconstruction_must_not_impersonate_source": true,
     "execution_before_execution_claim": true,
-    "readback_before_persistence_claim": true
+    "readback_before_persistence_claim": true,
+    "causal_process_primary_reconstruction_unit": true,
+    "validation_requires_causal_provenance": true,
+    "message_graph_parentage_over_timestamp_proximity": true
   },
   "simulations": [
     {
@@ -43,7 +46,8 @@
         "historical_chatgpt_export:2026-05:hawking_accessibility_execution_chain"
       ],
       "requirements": null,
-      "default_args": []
+      "default_args": [],
+      "preserves_causal_process": true
     },
     {
       "simulation_id": "dt_persistence_laboratory_historical",
@@ -54,12 +58,21 @@
       "source_locators": []
     },
     {
-      "simulation_id": "dt_toy_1d_smoother_historical",
+      "simulation_id": "dt_toy_1d_smoother_2026_05_recovered",
       "family": "toy_1d_smoother",
-      "status": "NEEDS_EXACT_SOURCE_RECOVERY",
-      "source_class": "HISTORICAL_CLAIM",
-      "entrypoint": null,
-      "source_locators": []
+      "status": "VERBATIM_EXECUTION_CELLS_RECOVERED_REPLAYED",
+      "source_class": "VERBATIM_EXECUTION_CELLS_RECOVERED_FROM_CHATGPT_EXPORT",
+      "entrypoint": "packs/dt_toy_1d_smoother_2026_05_recovered/replay_run.py",
+      "source_locators": [
+        "historical_chatgpt_export:2026-05:conversation:6a04b0a6-08ec-83ea-a887-cb63445a9cc7"
+      ],
+      "requirements": null,
+      "default_args": [
+        "--run",
+        "1"
+      ],
+      "preserves_causal_process": true,
+      "run_count": 3
     },
     {
       "simulation_id": "dt_recursive_civilization_historical",
@@ -107,7 +120,8 @@
       "source_locators": [
         "historical_chatgpt_export:2026-05:blackhole_recursive_learning_execution_chain"
       ],
-      "preserves_historical_failures": true
+      "preserves_historical_failures": true,
+      "preserves_causal_process": true
     }
   ]
 }
