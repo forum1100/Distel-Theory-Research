@@ -20,6 +20,10 @@ The stock executable reported compatibility with its bundled BBN constraints wit
 Baseline execution record SHA-256:
 `DCF209C517DC2C71C916D00BE20B752EABE0F793D00B86DA084DAD640827CFBD`
 
+## Historical source provenance clarification — 2026-09-10
+
+TJ identified the historical source used for the BBN numbers as the **AlterBBN homepage on HEPForge**, supplied through this Google share redirect: https://share.google/StTp4jHxKcGg4WRp5. This is preserved as a user-supplied provenance pointer. The redirect was not directly fetchable in the current web environment, so this note does not by itself prove the exact historical page revision or exact numerical run configuration. The independently recovered AlterBBN v2.2 archive and the reproduced stock execution above remain the stronger executable evidence for the numerical baseline.
+
 ## Local +10% sensitivity screen
 
 Rate perturbations were applied one channel at a time in isolated source copies. Largest Li7/H responses were:

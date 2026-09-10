@@ -19,6 +19,10 @@ The original integral did not independently reproduce (\Xi_\gamma=1.23). A corre
 7. Reject the candidate if improvement in lithium damages other abundances beyond preregistered tolerances.
 8. Preserve numerical failures, nulls, sensitivity results, and competing explanations.
 
+## Historical numerical-source provenance
+
+User clarification on 2026-09-10: the BBN numbers used in the historical work were taken from the **AlterBBN homepage on HEPForge**, shared as https://share.google/StTp4jHxKcGg4WRp5. Preserve that source pointer separately from the later DT suppression operator and from observational abundance targets. The precise historical page revision/run configuration remains to be matched against the archived AlterBBN source and outputs.
+
 ## Current successor state
 
 Stock AlterBBN v2.2 has now been recovered, compiled, and executed on the current host. A source-isolated mass-7 rate sensitivity screen and preregistered R17/R27/R34 triad were also executed; see [AlterBBN Successor Execution 2026-09-08](BBN_ALTERBBN_EXECUTION_2026-09-08.md).
