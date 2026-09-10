@@ -25,7 +25,7 @@ The four source families are treated independently. A newer export does not over
 - Generic `accessibility` occurrences: 65
 ## Export family C — 2026-05
 - Source form: sharded `conversations-*.json`
-- Conversations observed: 475 unique IDs (476 records; one duplicate-ID condition preserved)
+- Conversations observed: 476 records / 476 resolved conversation keys in the current direct parse
 - Observed coverage: 2025-09-09 through 2026-05-16 UTC
 - `Sim Code phase correction` occurrences: 20
 - Exact recursive-convergence simulation-pack heading occurrences: 10
@@ -39,7 +39,7 @@ The four source families are treated independently. A newer export does not over
 - Parent ZIP SHA-256: `858f9b05318e83b7b47d036ac8a49261ee35fb98ec736380ec9397f8c8dda755`
 - Parent ZIP members: 1,303
 - Working extraction comparison: 1,302 byte-identical; 0 missing; 1 mismatch
-- Conversations observed: 582 unique IDs (583 records; one duplicate-ID condition preserved)
+- Conversations observed: 583 records / 583 resolved conversation keys in the current direct parse
 - Observed coverage: 2025-09-09 through 2026-08-05 UTC
 - `Sim Code phase correction` occurrences: 107
 - Exact recursive-convergence simulation-pack heading occurrences: 51
@@ -54,9 +54,9 @@ Generation 2 now has direct parent-archive validation. The sole non-identical wo
 The hexadecimal token embedded in the Generation-2 parent ZIP filename does not equal the computed SHA-256 of the ZIP. It must not be represented as the archive's SHA-256.
 
 ## Remaining residuals
-- Resolve the duplicate-ID condition in the May and August conversation shards without deleting either observation.
-- Perform message/node-level differential analysis across overlapping conversation IDs.
-- Recover and classify the black-hole/Hawking/simulation executable lineage, including failed and superseded branches.
+- Earlier apparent duplicate-ID counts were not reproduced by the direct source parse; preserve that earlier discrepancy as an analysis fault, not as a source property.
+- Message/node-level differential is now executed in private custody; public aggregate is recorded separately.
+- Hawking-accessibility executed code has now been recovered and replayed; continue recovering other black-hole/Hawking branches and superseded variants.
 - Keep private source text, attachments, and personal records outside the public repository.
 
 No scientific branch is promoted by this reconciliation record.

@@ -15,17 +15,35 @@
       "source_class": "LATER_RECONSTRUCTION",
       "entrypoint": "packs/dt_recursive_convergence_2026_05_09_reconstruction/simulation.py",
       "requirements": "packs/dt_recursive_convergence_2026_05_09_reconstruction/requirements.txt",
-      "default_args": ["--trials", "3"],
-      "source_locators": ["drive:1tRSme6ZtvUfAMSW4fwU43VsR3LFi1eNP"],
-      "includes_domain": ["black_hole", "AI_agency", "prism_defense", "biology", "institutional", "thermo_diffusion", "quantum_threshold", "lithium_BBN"]
+      "default_args": [
+        "--trials",
+        "3"
+      ],
+      "source_locators": [
+        "drive:1tRSme6ZtvUfAMSW4fwU43VsR3LFi1eNP"
+      ],
+      "includes_domain": [
+        "black_hole",
+        "AI_agency",
+        "prism_defense",
+        "biology",
+        "institutional",
+        "thermo_diffusion",
+        "quantum_threshold",
+        "lithium_BBN"
+      ]
     },
     {
       "simulation_id": "dt_hawking_accessibility_historical",
       "family": "hawking_accessibility",
-      "status": "NEEDS_EXACT_SOURCE_RECOVERY",
-      "source_class": "HISTORICAL_CLAIM",
-      "entrypoint": null,
-      "source_locators": []
+      "status": "VERBATIM_EXECUTED_CODE_RECOVERED_REPLAYED",
+      "source_class": "VERBATIM_EXECUTED_CODE_RECOVERED_FROM_CHATGPT_EXPORT",
+      "entrypoint": "packs/dt_hawking_accessibility_2026_05_07_recovered/replay.py",
+      "source_locators": [
+        "historical_chatgpt_export:2026-05:hawking_accessibility_execution_chain"
+      ],
+      "requirements": null,
+      "default_args": []
     },
     {
       "simulation_id": "dt_persistence_laboratory_historical",
