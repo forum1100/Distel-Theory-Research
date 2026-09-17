@@ -1,4 +1,4 @@
-﻿# Distel Theory Research
+# Distel Theory Research
 
 **Distel Theory (DT = DRO + DUCT)**  
 **Primary author:** Thomas J. Cutler / Thomas Distel  
@@ -42,3 +42,5 @@ This repository publishes DT's theories, equations, visual models, simulations, 
 - Parent Learning Record Vault: https://parent-learning-record-vault.thomasdistel.chatgpt.site
 
 The public surfaces describe research, provenance, public-safe architecture, and applications. Private desktop execution authority, credentials, local command internals, private archives, and protected records remain outside this repository.
+
+**Commercial operating entity:** Distel Axiom Dynamics LLC, a Florida limited liability company filed September 10, 2026. This business-entity record does not alter Thomas J. Cutler's research authorship or automatically assign pre-formation IP; ownership and provenance remain separately documented.
