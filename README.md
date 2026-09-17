@@ -6,7 +6,7 @@
 
 > Reality is recursively stabilized accessibility restriction.
 
-This repository publishes DT's theories, equations, visual models, simulations, applications, proposals, failures, corrections, and falsification requirements. It does not present DT as validated physics, mathematical closure, or empirical proof.
+This repository publishes DT's theories, equations, visual models, simulations, applications, proposals, failures, corrections, falsification requirements, and provenance. It does not present DT as validated physics, mathematical closure, or empirical proof.
 
 ## Research map
 
@@ -25,12 +25,20 @@ This repository publishes DT's theories, equations, visual models, simulations, 
 - [Retest matrix](retests/RETEST_MATRIX.md)
 - [Retest record template](retests/RETEST_TEMPLATE.md)
 - [Provenance](provenance/PROVENANCE.md)
+- [September 17 recovery status](provenance/RECOVERY_STATUS_2026-09-17.md)
 - [External-data obligations](provenance/DATA_OBLIGATIONS.md)
 - [Concurrent workstream ledger](provenance/WORKSTREAM_COORDINATION.md)
 - [Public/proprietary boundary](PUBLIC_PROPRIETARY_BOUNDARY.md)
+- [Canonical public URL registry](docs/platform/urls.md)
 - [Visual index](visuals/README.md)
 - [Philosophy-to-test visual](visuals/FROM_PHILOSOPHY_TO_TEST.md)
 
-Public research site: [Distel Theory Research](https://forum1100.github.io/Distel-Theory-Research/).
+## Public surfaces
 
-Interactive companion: [DT Works](https://dt-operations-suite.thomasdistel.chatgpt.site).
+- Research site: https://forum1100.github.io/Distel-Theory-Research/
+- Recovery updates: https://forum1100.github.io/Distel-Theory-Research/updates.html
+- DT Works: https://dt-operations-suite.thomasdistel.chatgpt.site
+- DT Evidence Lab: https://dt-evidence-lab.thomasdistel.chatgpt.site
+- Parent Learning Record Vault: https://parent-learning-record-vault.thomasdistel.chatgpt.site
+
+The public surfaces describe research, provenance, public-safe architecture, and applications. Private desktop execution authority, credentials, local command internals, private archives, and protected records remain outside this repository.
