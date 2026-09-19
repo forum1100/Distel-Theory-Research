@@ -13,7 +13,7 @@ Release target: additive research/Pages update on current main.
 - BL-100 release dry run: PASS — local HTTP 200 readback for `/`, `updates.html`, `sitemap.xml`, `robots.txt`, `platform/urls.md`, and `DEPENDENCY_LICENSES.md`; sitemap XML parse PASS.
 - BL-101 public-summary scan: PASS â€” no private paths/credentials and capability claims retain verified/partial/pending distinctions.
 - BL-102 public claim matrix: PASS â€” Desktop 0.3.0 claims are tied to clean build/tests/hash/runtime receipts; literal second-machine and DT Works deployment remain unverified/pending.
-- BL-103 published hash log: PENDING until remote push + Pages readback; final remote commit and live hashes are appended after publication.
+- BL-103 published hash log: PASS — remote commits `039da16c...` and corrective `7a66175f...` were read back; Pages workflow `35411157249` completed successfully; public root, updates, sitemap, and dependency-license page returned live HTTP 200 readbacks. See `PUBLISHED_HASH_LOG_2026-09-18.md`.
 
 ## Changed-file pre-publication hashes
 - `docs/index.html` â€” `B536588A42ECE2A548191E0A73BDAA53327F0F696FE5E0CBEC6D4EC04E34C7BC`
